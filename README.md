@@ -39,7 +39,7 @@ std_dev <- prin_comp$sdev
 We aim to find the components which explain the maximum variance
 This shows that first principal component explains 10.3% variance. Second component explains 7.3% variance. Third component explains 6.2% variance and so on.
 
-### Conclsion
+### Conclusion
 A scree plot is used to access components or factors which explains the most of variability in the data.
 The plot  shows that ~ 30 components explains around 98.4% variance in the data set. 
 By plotting a cumulative variance plot,  will give us a clear picture of number of components.

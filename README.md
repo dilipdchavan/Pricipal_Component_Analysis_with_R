@@ -29,7 +29,7 @@ prin_comp$center
 #outputs the standard deviation of variables
 prin_comp$scale
 
-### Rortation Measure 
+### Rotation Measure 
 The rotation measure provides the principal component loading. Each column of rotation matrix contains the principal component loading vector. This is the most important measure we should be interested in.
 > prin_comp$rotation
 The prcomp() function also provides the facility to compute standard deviation of each principal component. sdev refers to the standard deviation of principal components.

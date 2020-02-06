@@ -29,7 +29,8 @@ prin_comp$center
 #outputs the standard deviation of variables
 prin_comp$scale
 
-### The rotation measure provides the principal component loading. Each column of rotation matrix contains the principal component loading vector. This is the most important measure we should be interested in.
+### Rortation Measure 
+The rotation measure provides the principal component loading. Each column of rotation matrix contains the principal component loading vector. This is the most important measure we should be interested in.
 > prin_comp$rotation
 The prcomp() function also provides the facility to compute standard deviation of each principal component. sdev refers to the standard deviation of principal components.
 #compute standard deviation of each principal component
@@ -37,8 +38,10 @@ std_dev <- prin_comp$sdev
 
 We aim to find the components which explain the maximum variance
 This shows that first principal component explains 10.3% variance. Second component explains 7.3% variance. Third component explains 6.2% variance and so on.
+
+### Conclsion
 A scree plot is used to access components or factors which explains the most of variability in the data.
 The plot  shows that ~ 30 components explains around 98.4% variance in the data set. 
-### By plotting a cumulative variance plot,  will give us a clear picture of number of components.
+By plotting a cumulative variance plot,  will give us a clear picture of number of components.
 This plot shows that 30 components results in variance close to ~ 98%. 
 For modeling, we’ll use these 30 components as predictor variables and follow the normal procedures.
